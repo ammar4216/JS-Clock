@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+@font-face {
+    font-family: 'digital-7';
+    src: url('./fonts/digital-7\ \(italic\).ttf');
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html{
+    font-size: 63%;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.637);
+}
+
+.clockDisplay{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;
+    font-family: 'digital-7', sans-serif;
+    color: white;
+}
